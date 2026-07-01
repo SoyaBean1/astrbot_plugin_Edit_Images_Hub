@@ -1,0 +1,38 @@
+{
+  "api_key": {
+    "description": "RunningHub API Key",
+    "type": "string",
+    "hint": "从 RunningHub 官方获取的 API Key",
+    "default": ""
+  },
+  "app_id": {
+    "description": "RunningHub App ID",
+    "type": "string",
+    "hint": "RunningHub AI App 的 ID，格式为数字字符串",
+    "default": ""
+  },
+  "max_poll_seconds": {
+    "description": "最大轮询时间（秒）",
+    "type": "int",
+    "hint": "等待 RunningHub 任务完成的最大秒数，超时后报错",
+    "default": 180
+  },
+  "poll_interval": {
+    "description": "轮询间隔（秒）",
+    "type": "int",
+    "hint": "查询 RunningHub 任务状态的时间间隔",
+    "default": 5
+  },
+  "max_retries": {
+    "description": "最大重试次数",
+    "type": "int",
+    "hint": "任务失败或超时后的自动重试次数",
+    "default": 2
+  },
+  "base_url": {
+    "description": "RunningHub API 基础地址",
+    "type": "string",
+    "hint": "一般无需修改，除非 RunningHub 变更域名",
+    "default": "https://www.runninghub.ai"
+  }
+}

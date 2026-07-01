@@ -1,0 +1,12 @@
+name: astrbot_plugin_Edit_Images_Hub
+display_name: Edit Images Hub
+desc: 引用图片并发送 /RH <提示词> 即可调用 RunningHub AI 对图片进行修改；也支持 LLM 自动调用。
+help: |
+  使用方法：
+  1. 引用（回复）一张图片
+  2. 发送 /RH <提示词>
+  示例：引用一张猫咪图片，发送 /RH 把猫变成狗
+
+  也支持自然语言：直接引用图片后用自然语言描述修改需求，LLM 会自动调用插件。
+version: 1.1.0
+author: SoYa
