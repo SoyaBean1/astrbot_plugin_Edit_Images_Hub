@@ -7,9 +7,9 @@
 # QQ演示 消息平台:aiocqhttp(OneBot v11)
 **--- 演示图中的角色均为AI生成,没有任何人因此受到伤害....**  
 **方式一:通过自然语言调用,引用图片,并表示想要更改图片的意图**
-![alt text](QQ_1782957669227.png)
+![alt text](source/QQ_1782957669227.png)
 **方式二:通过命令的方式调用,/RH 提示词**
-![alt text](QQ_1782958124917_副本.png)
+![alt text](source/QQ_1782958124917_副本.png)
 
 # 如何获取Runninghub的api_key和app_id?
 ## 1.打开Runninghub外服链接:https://www.runninghub.ai/?inviteCode=hwuoq5w1 -- 注意只能使用外服,国内版本审查非常严格 
