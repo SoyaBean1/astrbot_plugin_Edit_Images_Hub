@@ -1,8 +1,44 @@
-# RunningHub 图片编辑插件 for AstrBot
+# astrbot_plugin_Edit_Images_Hub 图片编辑插件 for AstrBot
+## 一个可以绕开安审改图插件,让bot给你发想康的东西,采用鸭鸭解密图片,极致的私密,身体差的不建议使用.请务必使用在正规途径. 
 
-引用图片 + AI 提示词 = 修改图片。支持 `/RH` 命令和 LLM 自动调用。
+
+# 声明：本项目只提供改图工具和进行学习使用，没有保存和生产任何内容，不对生成内容负责。如您使用则表示认同。
+
+# QQ演示 消息平台:aiocqhttp(OneBot v11)
+**--- 演示图中的角色均为AI生成,没有任何人因此受到伤害....**  
+**方式一:通过自然语言调用,引用图片,并表示想要更改图片的意图**
+![alt text](QQ_1782957669227.png)
+**方式二:通过命令的方式调用,/RH 提示词**
+![alt text](QQ_1782958124917_副本.png)
+
+# 如何获取Runninghub的api_key和app_id?
+## 1.打开Runninghub外服链接:https://www.runninghub.ai/?inviteCode=hwuoq5w1 -- 注意只能使用外服,国内版本审查非常严格 
+  
+## 2.点击右上角个人信息的控制台
+![alt text](image.png)
+
+## 3.点击上方API按钮
+![alt text](source/image-1.png)
+
+## 4.点击获取秘钥
+![alt text](source/image-2.png)
+
+## 5.复制秘钥获取api_key
+![alt text](source/image-3.png)
+
+## 6.点击想要使用的AI工作流或AI应用(生成结果一定得是鸭鸭加密结果),点击右上角的API调用,示例是T8大佬的工作流
+![alt text](source/image-01.png)
+
+## 7. 复制这一串数字即可获取app_id
+![alt text](source/image-6.png)
+
+## 8. 把获取的内容填入对应配置即可,其他参数看情况改动.
+![alt text](source/image-7.png)
+
 
 ## 安装
+**AstBot版本支持 >= v4.26.0 其他版本均未测试**  
+**支持的消息平台: aiocqhttp(OneBot v11)**
 
 将整个 `astrbot_plugin_Edit_Images_Hub` 文件夹放入 AstrBot 的插件目录：
 
@@ -28,7 +64,7 @@ pip install numpy Pillow
 
 | 参数 | 说明 | 必填 |
 |------|------|------|
-| `api_key` | RunningHub 的 API Key，从 [RunningHub](https://www.runninghub.ai) 获取 | **是** |
+| `api_key` | RunningHub 的 API Key，从 [RunningHub](https://www.runninghub.ai/?inviteCode=hwuoq5w1) 获取 | **是** |
 | `app_id` | RunningHub AI App 的 ID | **是** |
 | `base_url` | API 基础地址，默认 `https://www.runninghub.ai` | 否 |
 | `max_poll_seconds` | 任务最大等待时间（秒），默认 `180` | 否 |
@@ -36,6 +72,8 @@ pip install numpy Pillow
 | `max_retries` | 失败自动重试次数，默认 `2` | 否 |
 
 > **注意**：`api_key` 和 `app_id` 默认均为空，必须填写后才能使用。
+
+
 
 ## 使用方式
 
@@ -94,7 +132,7 @@ A: 本插件已内置 yaya-decode 解码模块（`yaya_decode/` 目录）。Runn
 ## 文件结构
 
 ```
-astrbot_plugin_Edit_Images_Hub/
+Edit_Images_Hub/
 ├── .gitignore
 ├── _conf_schema.json      # 配置面板定义
 ├── metadata.yaml           # 插件元数据
