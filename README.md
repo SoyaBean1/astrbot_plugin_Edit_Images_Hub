@@ -15,7 +15,7 @@
 ## 1.打开Runninghub外服链接:https://www.runninghub.ai/?inviteCode=hwuoq5w1 -- 注意只能使用外服,国内版本审查非常严格 
   
 ## 2.点击右上角个人信息的控制台
-![alt text](image.png)
+![alt text](source/image.png)
 
 ## 3.点击上方API按钮
 ![alt text](source/image-1.png)
